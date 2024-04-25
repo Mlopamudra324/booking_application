@@ -1,0 +1,112 @@
+.searchItem {
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.searchImg {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.searchItemDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.searchItemTitle {
+    font-size: 20px;
+    color: #0071c2;
+}
+
+.searchItemDistance {
+    font-size: 12px;
+}
+
+.searchItemTaxiOp {
+    font-size: 12px;
+    background-color: #008009;
+    color: white;
+    width: max-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.searchItemSubTitle {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.searchItemFeatures {
+    font-size: 12px;
+}
+
+.searchItemCancelOp {
+    color: #008009;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.searchItemCancelOpSubtitle {
+    font-size: 12px;
+    color: #008009;
+}
+
+.searchItemDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.searchItemRating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchItemRating>span {
+    font-weight: 500;
+}
+
+.searchItemRating>button {
+    background-color: #0071c2;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchItemDetailTexts {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.searchItemPrice {
+    font-size: 24px;
+}
+
+.searchItemTaxOP {
+    font-size: 12px;
+    color: grey;
+}
+
+.searchItemCheckButton {
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
